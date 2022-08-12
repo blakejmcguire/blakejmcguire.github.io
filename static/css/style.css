@@ -20,10 +20,7 @@
 }
 
 img {
-    position: relative;
-    width:100%;
-    max-width:500px;
-      
+    position: relative;  
 }
 
 h1 {
@@ -72,7 +69,18 @@ p {
     box-shadow: 0 1rem 3rem rgb(252, 163, 17, 0.6) !important;
 }
 
-
-
+/* Home Page */
+.container.home-page .coming-soon {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   height: 100%;
+   align-items: center;
+   position: relative;
+}
+.container.home-page img {
+   width: 100%;
+   max-width: 500px;
+}
 
 
