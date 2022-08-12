@@ -21,7 +21,9 @@
 
 img {
     position: relative;
-
+    width:100%;
+    max-width:500px;
+      
 }
 
 h1 {
@@ -68,13 +70,6 @@ p {
     background-color: var(--primary) !important;
     border-color: var(--primary) !important;
     box-shadow: 0 1rem 3rem rgb(252, 163, 17, 0.6) !important;
-}
-
-@media only screen and (max-width: 600px) {
-    img {
-        margin-top: 80px;
-        width: 80%;
-    }
 }
 
 
