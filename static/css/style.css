@@ -1,86 +1,80 @@
-/*!
-    * Under Construction Template - https://github.com/Directoire/under-construction-template
-    * Version - 1.0.0
-    * Licensed under the MIT license - http://opensource.org/licenses/MIT
-    *
-    * Copyright (c) 2020 Hendrik Demir (Directoire)
-*/
+* {
+    box-sizing: border-box;
+    font-family: Courier New, Courier, monospace;
+    background-color: #101010;
+    color: white;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Roboto:wght@400;500;600&display=swap');
-
-:root {
-    --primary: #FCA311;
-    --dark-blue: #14213D;
-    --dark-grey: #273034;
-    --light-grey: #E5E5E5;
-    --black: #000000;
-    --white: #FFFFFF;
-    --roboto: 'Roboto', sans-serif;
-    --playfair: 'Playfair Display', serif;
+html {
+    height: 100%;
 }
 
 img {
-    position: relative;  
+    border-radius: 5px;
 }
 
-h1 {
-    color: var(--dark-grey);
-    font-weight: 700;
-    margin-top: 3rem;
-    font-family: var(--playfair);
+body div, body div * {
+    background-color: black;
 }
 
-p {
-    color: black;
-    opacity: 0.6;
-    margin-top: 10px;
-    font-family: var(--roboto);
-    letter-spacing: 2px;
-    font-weight: 400;
+.flexcontainer {
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    margin: 0;
 }
 
-.btn {
-    font-weight: 500;
-    font-family: var(--roboto);
-    text-transform: uppercase;
-    font-size: 12px;
-    letter-spacing: 2px;
-    padding: 15px 25px;
-    border-radius: 999px;
-    transition: 0.3s all;
+#hero {
+    font-size: 4em;
+    font-weight: 100;
+    text-align: center;
+    padding: 50px;
 }
 
-.btn-primary {
-    background-color: var(--primary);
-    border-color: var(--primary);
-    box-shadow: 0 1rem 3rem rgb(252, 163, 17, 0.4);
+.content {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+    padding: 30px;
+    min-height: 10vh;
+    flex-grow: 1;
 }
 
-.btn-primary:hover {
-    background-color: var(--primary);
-    border-color: var(--primary);
-    transform: translateY(-2px);
-    box-shadow: 0 1rem 3rem rgb(252, 163, 17, 0.6);
+    .content img {
+        height: 100%;
+        margin-right: 30px;
+    }
+
+.footer {
+    padding: 30px;
+    text-align: left;
 }
 
-.btn-primary:focus {
-    background-color: var(--primary) !important;
-    border-color: var(--primary) !important;
-    box-shadow: 0 1rem 3rem rgb(252, 163, 17, 0.6) !important;
+.social-container {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
 }
 
-/* Home Page */
-.container.home-page .coming-soon {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   height: 100%;
-   align-items: center;
-   position: relative;
-}
-.container.home-page img {
-   width: 100%;
-   max-width: 500px;
+.social-link {
+    padding: 10px;
+    margin: 0 7px;
+    transition-duration: .4s;
+    height: min-content;
+    display: block;
 }
 
+a.social-link:first-of-type {
+    margin-left: 0;
+}
 
+.social-link i {
+    background-color: transparent;
+}
+
+.social-link:hover {
+    background: #83201bd4;
+    border-radius: 15px;
+}
