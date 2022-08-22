@@ -1,0 +1,15 @@
+.content {
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.content img {
+    max-width: 50vw;
+    max-height: 30vh;
+    align-self: center;
+}
+
+.social-container {
+    justify-content: center;
+
+}

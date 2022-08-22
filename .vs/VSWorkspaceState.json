@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\static",
+    "\\static\\css",
+    "\\static\\img",
+    "\\static\\vendor",
+    "\\static\\vendor\\bootstrap"
   ],
-  "SelectedNode": "\\C:\\Repos\\blakejmcguire.github.io",
+  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }

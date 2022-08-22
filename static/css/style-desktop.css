@@ -1,0 +1,17 @@
+.content {
+    padding: 30px;
+}
+
+.content img {
+    height: 100%;
+    margin-right: 30px;
+    align-self: center;
+}
+
+/*.footer {
+    text-align: left;
+}*/
+
+a.social-link:first-of-type {
+    margin-left: 0;
+}

@@ -2,25 +2,38 @@
 <html>
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FW0XJWS0WX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-FW0XJWS0WX');
+    </script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/d2a62e55fb.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="static/css/style.css" />
+    <link rel="stylesheet" media="screen and (min-width: 600px)" href="static/css/style-desktop.css" />
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="static/css/style-mobile.css" />
 </head>
 
-<body class="flexcontainer">
+<body>
 
     <div id="hero">
-        Blake McGuire
+        <p>Blake McGuire</p>
     </div>
 
     <div class="content">
-        <div>
-            <img src="static/img/headshot.png" />
-        </div>
-        <div>
-            <p>A leadership professional with a passion for lifelong learning and a lot of side projects.</p>
-            <p>This site is currently under development.  Look forward to more information about my personal and professional projects and some blog posts in the near future.</p>
-        </div>
+
+        <img src="static/img/headshot.png" />
+
+        <p>A leadership professional with a passion for lifelong learning and a lot of side projects.</p>
+
+        <p>This site is currently under development.  Look forward to more information about my personal and professional projects and some blog posts in the near future.</p>
+
 
     </div>
 
