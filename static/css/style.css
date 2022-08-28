@@ -1,7 +1,18 @@
+/*
+    Colour palette reference
+    Raw Umber       #786452
+    Black           #000000
+    Blue Crayola    #3772FF
+    Olivine         #ACC18A
+    Carolina Blue   #009DDC
+*/
+
+
+
 * {
     box-sizing: border-box;
     font-family: Courier New, Courier, monospace;
-    background-color: #101010;
+    background-color: #786452;
     color: white;
 }
 
@@ -15,7 +26,7 @@ img {
 }
 
 body div, body div * {
-    background-color: black;
+    background-color: #000000;
 }
 
 body {
@@ -47,8 +58,6 @@ body {
 
 .content p {
     text-align: left;
-    margin: 0;
-    margin: 0 20px;
 }
 
 .footer {
@@ -75,3 +84,8 @@ body {
     background-color: transparent;
     font-size: 5vh;
 }
+
+    .social-link:hover {
+        background-color: #3772ff;
+        border-radius: 8px;
+    }

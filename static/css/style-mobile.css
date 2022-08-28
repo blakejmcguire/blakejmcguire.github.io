@@ -9,7 +9,10 @@
     align-self: center;
 }
 
+.content p {
+    margin: 1em;
+}
+
 .social-container {
     justify-content: center;
-
 }

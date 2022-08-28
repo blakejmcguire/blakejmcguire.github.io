@@ -6,6 +6,11 @@
     height: 100%;
     margin-right: 30px;
     align-self: center;
+
+}
+
+.content p {
+    margin-block: 1em;
 }
 
 /*.footer {
