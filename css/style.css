@@ -1,0 +1,41 @@
+.hero-container {
+    background-image: linear-gradient(to right, rgb(255,255,255), rgb(160,160,160));
+}
+
+@media only screen and (min-width: 576px) {
+    .hero-content {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        max-width: 100%;
+        height: 100%;
+    }
+
+    #hero-image {
+        min-height: 300px;
+        width: 100vw;
+        max-width: 100%;
+        object-fit: cover;
+        object-position: left;
+    }
+}
+
+button > img {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.social-link-nav {
+    color: transparent;
+    display: flex;
+    border-radius: 2rem;
+}
+
+.social-link-nav:hover {
+    background-color: rgb(168, 183, 255);
+}
+
+.social-icon {
+    align-self: center;
+}

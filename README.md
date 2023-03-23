@@ -1,2 +1,0 @@
-# blakejmcguire.github.io
-Website

@@ -1,62 +1,188 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FW0XJWS0WX"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
 
-        gtag('config', 'G-FW0XJWS0WX');
-    </script>
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-539WWRG');</script>
+  <!-- End Google Tag Manager -->
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://kit.fontawesome.com/d2a62e55fb.js" crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="static/css/style.css" />
-    <link rel="stylesheet" media="screen and (min-width: 600px)" href="static/css/style-desktop.css" />
-    <link rel="stylesheet" media="screen and (max-width: 600px)" href="static/css/style-mobile.css" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+  <link href="css/style.css" rel="stylesheet" />
+  <title>Blake Mcguire</title>
 </head>
 
 <body>
 
-    <div id="hero">
-        <p>Blake McGuire</p>
-    </div>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-539WWRG" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
-    <div class="content">
 
-        <img src="static/img/headshot.png" />
+  <!-- Navigation -->
 
-        <div>
-            <p>A leadership professional with a passion for lifelong learning and a lot of side projects.</p>
-
-            <p>This site is currently under development.  Look forward to more information about my personal and professional projects and some blog posts in the near future.</p>
+  <nav class="navbar navbar-expand-sm navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <h1 class="display-4">Blake McGuire</h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <!--<a class="nav-link active" aria-current="page" href="#">Home</a>-->
+          <a class="nav-link" href="#section-projects">Projects</a>
+          <a class="nav-link" href="#section-about">About</a>
         </div>
-
+        <div class="flex-grow-1 d-flex align-items-center justify-content-start justify-content-sm-end">
+          <a href="mailto:blake@blakemcguire.com" class="social-link-nav m-1 p-2">
+            <img src="assets/icons/square-envelope-solid.svg"class="social-icon" alt="email icon" style="height: 1.5rem">
+          </a>
+          <a href="https://github.com/blakejmcguire/" class="social-link-nav m-1 p-2">
+            <img src="assets/icons/github.svg" class="social-icon" alt="email icon" style="height: 1.5rem">
+          </a>
+          <a href="https://www.linkedin.com/in/blakejordanmcguire/" class="social-link-nav m-1 p-2">
+            <img src="assets/icons/linkedin.svg" class="social-icon" alt="email icon" style="height: 1.5rem">
+          </a>
+        </div>
+      </div>
     </div>
+  </nav>
 
-    <div class="footer">
-        <ul class="social-container">
-            <li>
-                <a class="social-link" href="mailto:blake@blakemcguire.com">
-                    <i class="fa-solid fa-envelope fa-3x"></i>
-                </a>
-            </li>
-            <li>
-                <a class="social-link" href="https://www.linkedin.com/in/blakejordanmcguire">
-                    <i class="fa-brands fa-linkedin fa-3x"></i>
-                </a>
-            </li>
-            <li>
-                <a class="social-link" href="https://github.com/blakejmcguire">
-                    <i class="fa-brands fa-square-github fa-3x"></i>
-                </a>
-            </li>
-        </ul>
+  <!-- Hero Section -->
+
+  <div class="container-fluid g-0 position-relative hero-container">
+    <div class="d-sm-block d-none">
+      <img id="hero-image" src="assets/headshot-wide.png" alt="hero image, headshot with wide background" />
     </div>
+    <div class="row p-3 hero-content">
+      <div class="col offset-md-4 offset-sm-5 d-flex flex-column justify-content-center">
+        <div style="max-width: 550px">
+          <h1 class="display-6 lh-lg">Always learning,<br class="d-md-none"/> always growing</h1>
+          <p class="lead">Always trying something new, from small web applications to motorcycles.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <!-- Projects Section -->
+
+  <div class="container-fluid" id="section-projects">
+    <div class="row">
+      <div class="col-m-12">
+        <h1 class="display-5 mt-5">Projects</h1>
+        <hr class="mb-2">
+      </div>
+    </div>
+    <div class="row d-flex p-1 justify-content-evenly">
+      <div class="col d-flex align-items-stretch">
+        <div class="card m-2">
+          <img src="assets/card-headers/alexander-grey-8lnbXtxFGZw-unsplash.jpg" class="card-img-top" alt="money card header" />
+          <div class="card-body">
+            <h5 class="card-title">Budget Manager</h5>
+            <p class="card-text">A simple application for managing personal cashflow against regular spending.</p>
+            <a href="#" class="stretched-link"></a>
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex align-items-stretch">
+        <div class="card m-2">
+          <img src="assets/card-headers/20210705_033201120_iOS.png" class="card-img-top" alt="motorcycle card header" />
+          <div class="card-body">
+            <h5 class="card-title">1991 Suzuki GSX750F Katana</h5>
+            <p class="card-text">A $500 motorcycle brought back from the grave.</p>
+            <a href="#" class="stretched-link"></a>
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex align-items-stretch">
+        <div class="card m-2">
+          <img src="assets/card-headers/absolutvision-82TpEld0_e4-unsplash.jpg" class="card-img-top" alt="sticky note card header"/>
+          <div class="card-body">
+            <h5 class="card-title">Notes in a Jar</h5>
+            <p class="card-text">A web application for scribbling down those little things you want to keep for later.
+            </p>
+            <a href="#" class="stretched-link"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+
+  <div class="container-fluid" id="section-about">
+    <div class="row">
+      <div class="col-m-12">
+        <h1 class="display-5 mt-5">About</h1>
+        <hr class="mb-2">
+      </div>
+    </div>
+    <div class="row d-flex justify-content-evenly">
+      <div class="col d-flex align-items-stretch">
+        <div class="card w-100 mb-5">
+          <div class="card-body">
+            <h5 class="card-title">Education</h5>
+            <h6 class="card-subtitle mb-2 text-muted">University of the Fraser Valley</h6>
+            <p class="card-text">Diploma of Business Administration</p>
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex align-items-stretch">
+        <div class="card w-100 mb-5">
+          <div class="card-body">
+            <h5 class="card-title">Professional Experience</h5>
+            <h6 class="card-subtitle mb-2 text-muted">London Drugs</h5>
+              <p class="card-text">10+ years in roles spanning sales, management, and ecommerce.</p>
+          </div>
+          <div class="card-body">
+            <a href="https://www.linkedin.com/in/blakejordanmcguire/" class="card-link social-link">Details on LinkedIn</a>
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex align-items-stretch">
+        <div class="card w-100 mb-5">
+          <div class="card-body">
+            <h5 class="card-title">Skills</h5>
+            <p class="card-text">Coding (C++, JavaScript, Python), Power BI, Microsoft Power Automate, Google Analytics
+              (GA4), Microsoft Suite, ecommerce, merchandising, customer service, relationship & team building,
+              leadership,
+              scrum development, usability testing.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex align-items-stretch">
+        <div class="card w-100 mb-5">
+          <div class="card-body">
+            <h5 class="card-title">Interests</h5>
+            <p class="card-text">Auto repair, cars, motorcycles, photography, DIY, restoration, cinema, piano (mostly
+              classical)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
